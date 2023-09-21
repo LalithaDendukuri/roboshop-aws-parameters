@@ -7,6 +7,10 @@ parameters = {
   "cart.dev.CATALOGUE_HOST"        = { type = "String", value = "catalogue-dev.dljrobo.online" }
   "cart.dev.CATALOGUE_PORT"        = { type = "String", value = "80" }
 
+  "shipping.dev.DB_HOST"        = "dev-mysql-rds-cluster.cluster-coitdiz97egr.us-east-1.rds.amazonaws.com"
+  "shipping.dev.CART_HOST"        = { type = "String", value = "cart-dev.dljrobo.online" }
+  "shipping.dev.CART_PORT"        = { type = "String", value = "80" }
+
 
   "rds.dev.master_username" = { type = "String", value = "devadmin" }
   "rds.dev.database_name" = { type = "String", value = "dummy" }

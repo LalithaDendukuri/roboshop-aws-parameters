@@ -18,8 +18,8 @@ parameters = {
   "payment.dev.USER_PORT"    = { type = "String", value = "80" }
   "payment.dev.RABBITMQ_HOST"= { type = "String", value = "rabbitmq-dev.dljrobo.online" }
 
-  "raabbitmq.dev.master_username"  = { type = "String", value = "roboshop" }
-  "raabbitmq.dev.master_password"  = { type = "String", value = "roboshop1234" }
+  "rabbitmq.dev.master_username"  = { type = "String", value = "roboshop" }
+  "rabbitmq.dev.master_password"  = { type = "String", value = "roboshop1234" }
 
   "rds.dev.master_username"  = { type = "String", value = "devadmin" }
   "rds.dev.database_name"    = { type = "String", value = "dummy" }
